@@ -14,5 +14,6 @@ set autoindent
 color evening
 set foldmethod=syntax
 " save and restore folding on file close / reopen
-au BufWinLeave ?* mkview
+set viewdir=$HOME/.vim_view//
+au BufWinLeave,BufWritePost,BufLeave,WinLeave ?* mkview
 au BufWinEnter ?* silent loadview
