@@ -1,4 +1,7 @@
+" just for the weird unix keyboard
 map [25~ <esc>
+
+
 set cindent
 set number
 syntax on
@@ -10,3 +13,6 @@ set shitwidth=2
 set autoindent
 color evening
 set foldmethod=syntax
+" save and restore folding on file close / reopen
+au BufWinLeave ?* mkview
+au BufWinEnter ?* silent loadview
