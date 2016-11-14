@@ -13,5 +13,5 @@ something() {
 zle -N something
 
 bindkey "\e[A" history-search-backward  # auto history search to complete commands
-bindkey "\e[B" history-search-forwards  # arrow keys, unvim like
+bindkey "\e[B" history-search-forward  # arrow keys, unvim like
 
