@@ -80,5 +80,5 @@ com! DiffSaved call s:DiffWithSaved()
 autocmd bufnewfile *.cpp so ~/cpp_header.txt
 autocmd bufnewfile *.cpp exe "1," . 8 . "g/Created:.*/s//Created: " .strftime("%d %B %Y")
 
-autocmd bufnewfile *.h so ~/cpp_header.txt
+autocmd bufnewfile *.h so ~/h_header.txt
 autocmd bufnewfile *.h exe "1," . 8 . "g/Created:.*/s//Created: " .strftime("%d %B %Y")
