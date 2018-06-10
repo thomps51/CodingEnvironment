@@ -1,0 +1,19 @@
+:insert
+#pragma once
+#ifndef included_namespace_type_or_function_name_DATE_ //TODO
+#define included_namespace_type_or_function_name_DATE_ //TODO
+
+#ifndef _MSC_VER
+#   ident "$Id: $"
+#endif
+
+/*
+    Created:
+
+    Author: Tony Thompson <ajthomps51@gmail.com>
+*/
+
+//! @file
+//! Provides FUNCTION/CLASS  //TODO
+
+#endif
