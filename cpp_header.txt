@@ -1,0 +1,10 @@
+:insert
+#ifndef _MSC_VER
+#   ident "$Id: $"
+#endif
+
+/*
+    Created:
+
+    Author: Tony Thompson <ajthomps51@gmail.com>
+*/
