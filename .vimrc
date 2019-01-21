@@ -31,6 +31,8 @@ function SetCppOptions()
     " space open/closes folds
     nnoremap <space> za
     map <C-I> :pyf /path/to/clang-format.py<cr>
+    " Match angle brakets like parens
+    set matchpairs+=<:>
 endfunction
 
 set showmatch
